@@ -1,0 +1,8 @@
+version: '3'
+services:
+    content-repository-server:
+        image: gpupo/content-repository-server
+        ports:
+            - 8080:8080
+        volumes:
+          - $PWD/repository-with-mysql-persistence.xml:/opt/jackrabbit/repository.xml

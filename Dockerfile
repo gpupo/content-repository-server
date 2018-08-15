@@ -19,4 +19,3 @@ COPY protectedHandlersConfig.xml WEB-INF/
 COPY bootstrap.properties WEB-INF/templates/bootstrap.properties
 COPY bootstrap.properties /opt/jackrabbit/bootstrap.properties
 COPY repository.xml /opt/jackrabbit/repository.xml
-#COPY tomcat/lib/*.jar WEB-INF/lib/
