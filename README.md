@@ -2,6 +2,7 @@
 
 Custom install of Apache Jackrabbit ``2.12.9`` Docker image on top of Tomcat ``8.5``
 
+
 ## Usage
 
 Run without configuration
@@ -15,3 +16,7 @@ For run with custom ``repository`` config, like Mysql persistense, check [sample
 ## Credentials
 
 Default user is *admin* with *admin* password
+
+## Examples
+
+See [Jackalope Jackrabbit by example](https://github.com/gpupo/jackalope-jackrabbit-by-example) and [content-butler](https://github.com/gpupo/content-butler)
