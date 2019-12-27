@@ -32,4 +32,4 @@ jobs:
           fetch-depth: 1
 
       - name: Docker Build
-        run: docker build
+        run: docker build ./
